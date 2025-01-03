@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- Swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Property Experts| Real estate| Rental property</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+          <a href="/" class="logo"><h1>RENT</h1></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="#terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#enquiry" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+               <!--Slider-->
+      <div class="hero">
+        <div class="swiper-container heroslider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide fade">
+              <img src="pic6.jpg" alt="House1" />
+            </div>
+            <div class="swiper-slide fade">
+              <img src="carousel-2.jpg" alt="House2" />
+            </div>
+            <div class="swiper-slide fade">
+              <img src="carousel-1.jpg" alt="House3" />
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-chevron-right swiper-icon" onclick="showSlides()"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-chevron-left swiper-icon" onclick="prevSlide()"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>Find your dream home</h1>
+        <div class="search">
+          <input type="text" placeholder="Type Address, City, State" />
+          <a href="">Search</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section rent" id="about">
+      <div class="title">
+        <h1>Properties For Rent</h1>
+        <p>
+          Search over 2000 properties to rent from the top agents in the country
+        </p>
+      </div>
+
+      <div class="rent-center container">
+
+        <div class="box">
+          <div class="top">
+            <div class="overlay"> <!--black overlay on image-->
+              <img src="property1.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>Rent</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p><i class="fa-solid fa-location-dot"></i> Perungalathur</p>
+            <div>
+              <span> &#8377;25,000/month</span>
+              <span><i class="fa-solid fa-house"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="property2.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>Rent</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p><i class="fa-solid fa-location-dot"></i> Thiruvanmaiyur</p>
+            <div>
+              <span> &#8377;30,000/Month </span>
+              <span><i class="fa-solid fa-house"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="property3.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>Buy</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p><i class="fa-solid fa-location-dot"></i> Tambaram</p>
+            <div>
+              <span> &#8377; 1Crore </span>
+              <span><i class="fa-solid fa-house"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="property4.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>Rent</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p><i class="fa-solid fa-location-dot"></i> Velachery </p>
+            <div>
+              <span> &#8377;20,000/Month </span>
+              <span><i class="fa-solid fa-house"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="property5.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>Rent</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p><i class="fa-solid fa-location-dot"></i> Guindy</p>
+            <div>
+              <span> &#8377;10,000/Month </span>
+              <span><i class="fa-solid fa-building"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="property6.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>Rent</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p><i class="fa-solid fa-location-dot"></i> Porur</p>
+            <div>
+              <span> &#8377;15,000/Month </span>
+              <span><i class="fa-solid fa-building"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="property7.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>Rent</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p><i class="fa-solid fa-location-dot"></i> Solinganallur</p>
+            <div>
+              <span> &#8377;13,000/Month </span>
+              <span><i class="fa-solid fa-building"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="property8.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>Buy</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p><i class="fa-solid fa-location-dot"></i> Porur</p>
+            <div>
+              <span> &#8377;60Lakh</span>
+              <span><i class="fa-solid fa-building"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Scroll to top button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Contact -->
+    <section class="section contact" id="enquiry">
+      <div class="row">
+        <div class="col">
+          <h2>EXCELLENT SUPPORT</h2>
+          <p>
+            We love our customers and they can reach us any time of day we will
+            be at your service 24/7
+          </p>
+          <a href="" class="btn btn-1"><i class="fa-solid fa-phone"></i> Enquiry</a>
+        </div>
+        <div class="col">
+          <form action="">
+            <div>
+              <input type="email" placeholder="Email Address" /> 
+              <a href="mailto:arthij003@gmail.com">Send</a>  <!--Add name and write email text-area-->
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+     <!-- Grid -->
+     <section class="section grid-layout" >
+      <div class="title" id="popular">
+        <h1>Popular Properties</h1>
+      </div>
+
+      <div class="wrapper container">
+        <div class="box box1">
+          <img src="gridimage1.jpg" alt="" />
+        </div>
+        <div class="box box2">
+          <img src="pic3.jpg" alt="" />
+        </div>
+        <div class="box box3">
+          <img src="gridimage.jpg" alt="" />
+        </div>
+        <div class="box box4">
+          <img src="gridimage2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="#about">About us</a>
+          <a href="#enquiry">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="#enquiry">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="#popular">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="fa-brands fa-facebook"></i></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-github"></i></span>
+          <span><i class="fa-brands fa-x-twitter"></i></span>
+          <span><i class="fa-brands fa-pinterest-p"></i></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/index.js"></script>
+</html>
